@@ -71,7 +71,7 @@ def calculate():
                 except ValueError:
                     Lc[n] = float(Lc[n])
     else:
-        Lc = []
+        Lc.clear()
 
     x = 1
     for y in Lo:
