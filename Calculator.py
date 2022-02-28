@@ -82,7 +82,7 @@ def calculate():
                     if y == '/':
                         if Lc[j + 1] == 0:
                             tkinter.messagebox.showerror("ERROR", "Dividing by 0")
-                            Lc = []
+                            Lc.clear()
                             break
                         temp = Lc[j - 1] / Lc[j + 1]
                         if Lc[j - 1] % Lc[j + 1] == 0:
